@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(237, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.one{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px black;
+    background-color: rgb(172, 206, 189);
+}
+
+input{
+    margin: 60px;
+    width: 200px;
+    height: 30px;
+    box-shadow: 0 0 10px 0 black;
+}
+
+::placeholder{
+    position: relative;
+    left: 20px;
+}
+button{
+    width: 70px;
+    height: 30px;
+    background-color: aqua;
+    border: none;
+    margin-left: 2px;
+    box-shadow: 0 0  30px rgb(27, 169, 209);
+    border-radius: 15px;
+}
+button:hover{
+    background-color:aqua;
+    color: rgb(14, 15, 15);
+    box-shadow: inset 0 0 1px black;
+}
+.p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 38%;
+}
+.text p{
+    position: relative;
+    top: -20px;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+}
+
+img{
+    width: 170px;
+    height: 170px;
+    margin-top: -30px;
+    margin-left: 160px;
+}
+.wind{
+    margin-left: 330px;
+    margin-top: -40px;
+}
+
+.wind1 img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 100px;
+    left: 180px;
+}
